@@ -1,0 +1,106 @@
+#logo {
+  border-radius: 50%;
+  width: 150px;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;;
+}
+
+.card {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: rgb(254, 254, 254);
+  border-radius: 5px;
+}
+
+.text-italic{
+  font-style: italic;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.list-inline{
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.icon{
+  font-size: 35px;
+}
+
+td {
+  padding: 5px;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: rgb(240, 240, 240);
+  font-weight: 300px;
+  color: #7d7d7d;
+  font-size: 15px;
+  line-height: 1.6em;
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2 {
+  font-weight: 300px;
+  color: rgb(30,30,30);
+}
+
+h1 {
+  font-size: 22px;
+  color: #a283c0;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: #ccc;
+  opacity: 0.7;
+}
+
+table{
+  font-weight: 300px;
+  font-size: 15px;
+  line-height: 1.6em;
+}
+
+img {
+    border: 1px solid #ddd;
+    padding: 5px;
+    width: 300px;
+}
+
+a:hover {
+  opacity: 1;
+  color: #a283c0;
+}
+
+img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+
+
+
+
