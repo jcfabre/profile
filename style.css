@@ -3,9 +3,22 @@
   width: 150px;
 }
 
+#sidebar {
+  position: fixed;
+  width: 150px;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background: #575A5E;
+}
+
+#page-content {
+  margin-left: 150px;
+}
+
 .container {
-  width: 800px;
-  margin: 0 auto;;
+  width: 900px;
+  margin: 0 auto;
 }
 
 .card {
@@ -15,6 +28,10 @@
   padding-bottom: 5px;
   background-color: rgb(254, 254, 254);
   border-radius: 5px;
+}
+
+.sidebar-item {
+  width: 150px;
 }
 
 .text-italic{
@@ -29,13 +46,19 @@
   padding-left: 0px;
 }
 
+.icon{
+  font-size: 35px;
+}
+
 .list-inline li {
   display: inline-block;
   padding: 0px 20px;
 }
 
-.icon{
-  font-size: 35px;
+.list-inline > .sidebar-item {
+  display: inline-block;
+  padding: 10px 0px;
+  width: 150px;
 }
 
 td {
@@ -98,6 +121,10 @@ a:hover {
 
 img:hover {
     box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.icon:hover {
+  font-size: 38px;
 }
 
 
